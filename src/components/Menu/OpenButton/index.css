@@ -1,0 +1,31 @@
+.open-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+
+    box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, 0.5);
+    border-radius: 50%;
+
+    right: 14%;
+    top: 5%;
+    z-index: 1;
+}
+
+.burger-icon-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.burger-line {
+    width: 18px;
+    height: 3px;
+    background-color: #0023FF;
+    margin-bottom: 3px;
+}
+
+.burger-line:last-child {
+    margin-bottom: 0;
+}

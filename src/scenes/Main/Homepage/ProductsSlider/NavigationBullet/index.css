@@ -1,0 +1,27 @@
+.navigation-bullet {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid #D8D8D9;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+
+    background-color: transparent;
+
+    transition: background-color .3s ease, border .3s ease;
+
+    cursor: pointer;
+}
+
+.navigation-bullet:hover {
+    background-color: #0023ff;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+.navigation-bullet.active {
+    background-color: #0023ff;
+    border: 3px solid transparent;
+}

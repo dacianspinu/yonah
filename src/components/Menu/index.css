@@ -1,0 +1,15 @@
+.menu-wrapper {
+    width: 16%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.menu-background {
+    box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, 0.5);
+    background-color: white;
+    height: 100%;
+    position: relative;
+    right: -100%;
+    z-index: 0;
+}
