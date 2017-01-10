@@ -10,7 +10,7 @@ class Slide extends Component {
 
     render() {
         return (
-            <div className="slide-container" style={{ backgroundImage: 'url(' + this.slideProperties.backgroundImage + ')', width: 100 / 4 + '%' }}>
+            <div className="slide-container" style={{ backgroundImage: 'url(' + this.slideProperties.backgroundImage + ')', width: this.props.width + '%' }}>
                 <div className="slide-title">
                     {this.slideProperties.title}
                 </div>

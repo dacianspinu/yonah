@@ -56,7 +56,7 @@ class ProductsSlider extends Component {
   computeSlides() {
     return this.slides.map((slide, iterator) => {
       return (
-          <Slide key={iterator} component={slide}></Slide>
+          <Slide key={iterator} component={slide} width={-100 / this.slides.length}></Slide>
       );
     });
   }
