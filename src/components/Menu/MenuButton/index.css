@@ -1,0 +1,21 @@
+.menu-button-holder {
+    margin-bottom: 50px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.menu-button-name {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #c1c1c1;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-button-icon {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 30px;
+    margin-left: 20px;
+}
