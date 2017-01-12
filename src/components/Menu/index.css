@@ -16,10 +16,25 @@
     transform: translateX(100%);
 
     transition: transform .3s cubic-bezier(0.4, 0.0, 0.2, 1);
-    
+    text-align: center;
+}
+
+.menu-background:before {
+    content: '';
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -15vh;
 }
 
 .menu-background.open {
     transform: translateX(0);
     transition: transform .3s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.menu-items-holder {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
 }
